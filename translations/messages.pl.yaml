@@ -1,0 +1,7 @@
+app:
+    ui:
+        
+sylius:
+    shipping_calculator:
+        weight_based:
+            label: 'Koszt wysyłki oparty na wadze'

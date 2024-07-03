@@ -1,6 +1,8 @@
 app:
     ui:
         suppliers: 'Dostawcy'
+        trust: 'Zaufaj'
+                
         
 sylius:
     shipping_calculator:

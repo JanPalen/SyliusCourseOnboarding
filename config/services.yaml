@@ -47,4 +47,13 @@ services:
                 
     App\Menu\AdminMainMenuListener:
         tags:
-            - { name: kernel.event_listener, event: sylius.menu.admin.main, method: addSupplierMenu, label:   }
+            - { 
+                name: kernel.event_listener, 
+                event: sylius.menu.admin.main, 
+                method: addSupplierMenu, 
+                label: 'app.ui.suppliers' 
+            }
+                
+    App\Form\Type\SupplierType:
+        arguments:
+            - '%app.model.supplier.class%'

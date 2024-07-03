@@ -1,6 +1,6 @@
 sylius_fixtures:
     suites:
-        online_course:
+        suppliers:
             fixtures:
                 supplier:
                     options:

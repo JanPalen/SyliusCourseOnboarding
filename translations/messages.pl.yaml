@@ -1,5 +1,6 @@
 app:
     ui:
+        suppliers: 'Dostawcy'
         
 sylius:
     shipping_calculator:
